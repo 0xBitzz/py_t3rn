@@ -35,7 +35,7 @@ This project is not affiliated with, endorsed by, or related to the [original t3
     git clone https://github.com/0xBitzz/py_t3rn.git
     ```
     ```sh
-    cd <project_directory>
+    cd py_t3rn
     ```
 
 2. Install Dependencies
