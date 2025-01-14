@@ -1,0 +1,49 @@
+[project]
+name = "py-t3rn"
+version = "0.0.1"
+description = "This project is a Python-based solution for automating transactions using the Web3.py library. It supports asynchronous processing and interacts with Ethereum-based networks via RPC endpoints."
+authors = [{ name = "0xBitzz", email = "successdaudu@gmail.com" }]
+readme = "README.md"
+license = { file = "LICENSE.md" }
+requires-python = ">=3.13"
+dependencies = [
+    "python-dotenv>=1.0.1",
+    "web3>=7.6.1",
+]
+
+[dependency-groups]
+dev = [
+    "isort>=5.13.2",
+]
+
+classifiers = [
+  "Development Status :: 3 - Alpha",
+
+  "Intended Audience :: Developers",
+  "Topic :: Software Development :: Build Tools",
+
+  "License :: OSI Approved :: MIT License",
+
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Programming Language :: Python :: 3 :: Only",
+]
+
+[project.urls]
+Homepage = "https://github.com/0xBitzz/py_t3rn"
+Repository = "https://github.com/0xBitzz/py_t3rn.git"
+Source = "https://github.com/0xBitzz/py_t3rn"
+
+[project.scripts]
+py_t3rn = "py_t3rn.py_t3rn:main"
+
+# [build-system]
+# requires = ["hatchling"]
+# build-backend = "hatchling.build"
+[build-system]
+requires = ["setuptools>=42"]
+build-backend = "setuptools.build_meta"
